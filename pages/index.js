@@ -57,7 +57,7 @@ export default function Home() {
 
       <main>
         <Header title="Hello Sacha!" />
-        <div className="forms-studio" style={{ width: '800px' }}>
+        <div className="forms-studio" style={{ width: '800px', height: '700px' }}>
           <iframe src="https://script.google.com/macros/s/AKfycbyZIkglD6OdW_5UCtnFyJ2Qn2fLK4J19yCGQJxPdGmY2BDWUn6bbSQiOiXd2Edohl_8/exec" />
         </div>
 		<p className="description">You have time until monday, the 10th of july, 8 am to upload your Powerpoint!</p>
@@ -66,8 +66,6 @@ export default function Home() {
           {countdown.hours} hours, {countdown.minutes} minutes, {countdown.seconds} seconds
         </p>
       </main>
-
-      <Footer />
     </div>
   );
 }
